@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Abc</title>
+    <style>
+       
+        #main-frame{
+            color:white;
+            background-image: conic-gradient(black,purple,hotpink,purple,black);
+            width: 460px;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px;
+            height: 1000px;
+        }
+
+        .circle{
+            background-color: chartreuse;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        
+        .oval{
+            background-color: orange;
+            width: 200px;
+            height: 100px;
+            border-radius: 100px/50px;
+        }
+
+        .rhombus{
+            margin-left: 30px;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            transform: skew(-20deg);
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-frame">
+        <form>
+            <label for="email-input">GitHub account email: </label>
+            <input type="email" id="email-input" placeholder="cenan54@github.com" pattern=".+@github\.com">
+            <input type="submit" value="Sign In">
+        </form>
+
+        <br>
+
+        <form>
+            <label for="volume">Volume</label>
+            <input id="volume" type="range" max="100" min="0" step="20" value="20">
+            <input type="submit" value="Change">
+        </form>
+
+        <br>
+
+        <form>
+            <h3>How much enjoyed at DisneyLand?</h3>
+            <input id="wow" type="radio" value="2" name="experience">
+            <label for="wow">Wow</label>
+            
+            <input id="meh" type="radio" value="1" name="experience">
+            <label for="meh">Meh</label>
+
+            <input id="nah" type="radio" value="0" name="experience">
+            <label for="nah">Nah</label>
+
+            <input type="submit" value="Send">
+
+            <!-- name attribute in radio button is for creating context 
+            and connects radio buttons -->
+
+        </form>
+
+        <br>
+
+        <form>
+            <label for="size-list">Select your size: </label>
+            <select name="size-list" id="size">
+                <option value="">select a size...</option>
+                <option value="s">small</option>
+                <option value="m">medium</option>
+                <option value="l">large</option>
+            </select>
+        </form>
+
+        <br>
+
+        <div class="circle"></div>
+        <br>
+        <div class="oval"></div>
+        <br>
+        <div class="rhombus"></div>
+    </div>
+</body>
+</html>
