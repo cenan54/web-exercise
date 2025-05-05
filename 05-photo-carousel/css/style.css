@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.carousel-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px #aaaaaa;
+}
+
+.photo-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  background-image: linear-gradient(rgb(255, 255, 255)),
+    linear-gradient(rgb(247, 247, 247));
+  border-radius: 20px;
+  margin: 20px 10px 0px 10px;
+  box-shadow: 0px 1px 5px rgb(177, 176, 176), inset 1px 1px 2px #fff;
+  transition: all 0.5s;
+}
+
+.button:hover{
+    background-image: none;
+    background-color: rgb(0, 166, 111);
+    transition: all 0.5s;
+}
+
