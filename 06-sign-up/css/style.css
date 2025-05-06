@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap);
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://images.pexels.com/photos/2387818/pexels-photo-2387818.jpeg?auto=compress&cs=tinysrgb&w=1920);
+    background-position: center;
+    background-size: cover;
+    font-family: "Readex Pro", sans-serif;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-icon{
+    float: right;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.sign-up-frame{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: rgb(0, 0, 0,0.5) 0px 6px 24px 0px,rgb(0, 0, 0,0.5) 0px 0px 0px 1px;
+}
+
+.auth-modal{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-modal input{
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.auth-modal .submit{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(157, 157, 157));
+    transition: all 0.5s;
+}
+
+.auth-modal .submit:hover{
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(91, 91, 91));
+    transition: all 0.5s;
+}
