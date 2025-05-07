@@ -1,0 +1,23 @@
+.orange{
+    background-color: rgb(216, 141, 0);
+    height: 50px;
+    width: 50px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.orange:hover{
+    animation: 5s scale infinite;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(10);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
